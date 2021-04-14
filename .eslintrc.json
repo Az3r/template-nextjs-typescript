@@ -16,5 +16,10 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/no-use-before-define": [
+      "error",
+      { "variables": true, "functions": false }
+    ],
+  }
 }
