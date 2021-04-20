@@ -15,21 +15,11 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
+      "@/*": ["./src/*"],
       "@/test/*": ["./__test__/*"],
       "@/pages/*": ["./src/pages/*"],
-      "@/public/*": ["./public/*"],
-      "@/layouts/*": ["./src/layouts/*"],
-      "@/api/*": ["./src/pages/api/*"],
       "@/styles/*": ["./src/styles/*"],
-      "@/components/*": ["./src/components/*"],
-      "@/services/*": ["./src/services/*"],
-      "@/utilities/*": ["./src/utilities/*"],
-      "@/models/*": ["./src/models/*"],
-      "@/errors/*": ["./src/errors/*"],
-      "@/repositories/*": ["./src/repositories/*"],
-      "@/config/*": ["./src/config/*"],
-      "@/hooks/*": ["./src/hooks/*"],
-      "@/mocks/*": ["./__test__/__mocks__/*"]
+      "@/public/*": ["./public/*"]
     }
   },
   "include": [
